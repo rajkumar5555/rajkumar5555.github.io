@@ -64,6 +64,9 @@ body {
     width: 30px;
     height: 30px;
   }
+  .abtimg {
+    width: 90% !important;
+  }
 }
 
 @media only screen and (max-width: 400px) {
