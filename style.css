@@ -1,0 +1,105 @@
+body {
+  background-color: #FFF4E1;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.active {
+  font-weight: 500;
+  padding-bottom: 0;
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.head {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  font-style: italic;
+  color: black;
+}
+
+.prohead {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #fd7905;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.content {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.card {
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.card:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.abt {
+  font-size: 1.5rem;
+  padding: 1rem 5rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar-brand {
+    font-size: 0.9rem !important;
+  }
+  .img {
+    width: 50%;
+    margin-top: 2em;
+    margin-bottom: 1.2em;
+    margin-left: 5em !important;
+    border-radius: 100%;
+  }
+}
+
+.but {
+  border-radius: 30px;
+  padding: 15px;
+  background-color: #FF7F11;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: black;
+  border-style: none;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.but:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.img {
+  width: 50%;
+  margin-left: 10em;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=style.css.map */
