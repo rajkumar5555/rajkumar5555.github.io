@@ -221,8 +221,8 @@ nav {
   .prdtlink {
     margin: 1rem 5rem !important;
   }
-  .but {
-    padding: 0rem !important;
+  .button {
+    padding: .3rem !important;
   }
 }
 
