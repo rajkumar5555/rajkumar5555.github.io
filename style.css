@@ -195,6 +195,10 @@ nav {
   color: #FF7F11;
 }
 
+.abtimg {
+  width: 25%;
+}
+
 @media only screen and (max-width: 500px) {
   .navbar-brand {
     font-size: 1.2rem !important;
@@ -272,7 +276,6 @@ nav {
 .img {
   width: 50%;
   margin-left: 10em;
-  border-radius: 100%;
 }
 
 i {
