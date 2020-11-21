@@ -138,6 +138,11 @@ nav {
   transition: 0.2s all;
 }
 
+.size {
+  color: gray;
+  font-size: 1.2rem;
+}
+
 .profile:hover {
   -webkit-transform: scale(1.07);
           transform: scale(1.07);
